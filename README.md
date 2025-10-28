@@ -1,4 +1,4 @@
-#🧦 Socks Proxy
+# 🧦 Socks Proxy
 
 A lightweight proxy server supporting both **SOCKS5** and **SOCKS4** protocols. This proxy can be used to route traffic through a remote server, providing anonymity or bypassing network restrictions.
 
