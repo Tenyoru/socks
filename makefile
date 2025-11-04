@@ -13,6 +13,6 @@ clean:
 	rm -f $(TARGET)
 
 test: all
-	@PY_CMD=$${PYTHON_CMD:-} PYTHON_CMD=$${PY_CMD} ./tests/test.sh
+	@PYTHON_CMD=$${PYTHON_CMD:-} ./tests/test.sh
 
 .PHONY: all run clean test
